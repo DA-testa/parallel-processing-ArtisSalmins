@@ -22,8 +22,7 @@ def parallel_processing(n, m, data: list):
     return output
 
 def main():
-    n = int(input("Enter thread count: "))
-    m = int(input("Enter job count: "))
+    n, m = map(int, input()[:-2].split())
 
     data = list(map(int, input().split()))
 
