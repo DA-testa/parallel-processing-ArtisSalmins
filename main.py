@@ -22,7 +22,7 @@ def parallel_processing(n, m, data: list):
     return output
 
 def main():
-    n, m = map(int, input()[:-2].split())
+    n, m = map(int, input().split())
 
     data = list(map(int, input().split()))
 
